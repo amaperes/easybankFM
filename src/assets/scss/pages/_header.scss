@@ -108,16 +108,4 @@
       }
     }
   }
-
-  &__btn {
-    color:white;
-    font-size: $font-sm;
-    font-weight: 700;
-    //transition: opacity 300ms ease-in-out;
-
-    &:hover {
-      box-shadow: 0 8px 25px -8px $brightCyan;
-      //opacity: 0.75;
-    }
-  }
 }
