@@ -146,18 +146,35 @@ a, a:visited, a:hover {
 
 // Buttons
 button, .button {
+  position: relative;
   display: inline-block;
-  background: linear-gradient(to right, $limeGreen, $brightCyan);
+  background-image: linear-gradient(to right, $limeGreen, $brightCyan);
   border: 0;
   font-family: 'Public Sans', 'sans-serif';
   border-radius: 50px;
-  border-width: 0;
-  border-color: transparent;
   cursor: pointer;
   padding: 0.875rem 2.1875rem;
   font-size: $font-sm;
   color:white;
   font-weight: 700;
+
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff7b;
+    border-radius: 50px;
+    opacity: 0;
+    transition: opacity 150ms ease-in-out;
+
+  }
+
+  &:hover::before {
+    opacity: 1;
+  }
 
   &:hover {
     box-shadow: 0 8px 25px -8px $brightCyan;

@@ -60,5 +60,5 @@
 </template>
 
 <style lang="scss" scoped>
-@import '../../assets/scss/pages/features.scss'
+@import '../../assets/scss/sections/features.scss'
 </style>

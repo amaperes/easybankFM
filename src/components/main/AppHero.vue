@@ -12,5 +12,5 @@
   </section>
 </template>
 <style lang="scss" scoped>
-@import '../../assets/scss/pages/hero.scss'
+@import '../../assets/scss/sections/hero.scss'
 </style>

@@ -49,5 +49,5 @@
 </template>
 
 <style lang="scss" scoped>
-@import '../../assets/scss/pages/articles.scss'
+@import '../../assets/scss/sections/articles.scss'
 </style>

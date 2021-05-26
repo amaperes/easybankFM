@@ -3,18 +3,7 @@
   <app-hero />
   <app-features />
   <app-articles />
-
-  About Us
-  Contact
-  Blog
-  Careers
-  Support
-  Privacy Policy
-
-  Request Invite
-
-  © Easybank. All Rights Reserved
-
+  <app-footer/>
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>
     Coded by <a href="https://github.com/amaperes">A.P.</a>
@@ -26,6 +15,7 @@ import AppHeader from './components/AppHeader.vue'
 import AppHero from './components/main/AppHero.vue'
 import AppFeatures from './components/main/AppFeatures.vue'
 import AppArticles from './components/main/AppArticles.vue'
+import AppFooter from './components/AppFooter.vue'
 
 export default {
   name: 'App',
@@ -33,7 +23,8 @@ export default {
     AppHeader,
     AppHero,
     AppFeatures,
-    AppArticles
+    AppArticles,
+    AppFooter
   }
 }
 </script>
