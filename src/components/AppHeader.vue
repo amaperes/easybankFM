@@ -6,10 +6,11 @@
           <img src="../assets/images/logo.svg" alt="Easybank" />
         </a>
 
-        <a href="#" class="header__toggle hide-for-desktop" @click="openMenu">
+        <a href="#" id="" class="header__toggle hide-for-desktop sr-only" @click="openMenu">
           <span></span>
           <span></span>
           <span></span>
+          Text
         </a>
 
         <div class="header__links hide-for-mobile">

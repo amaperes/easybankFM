@@ -12,7 +12,7 @@
       </div>
       <div class="feature__grid">
         <div class="feature__item">
-          <div class="feature__icon"><img src="../../assets/images/icon-online.svg"/></div>
+          <div class="feature__icon"><img src="../../assets/images/icon-online.svg" alt="Online"/></div>
           <div class="feature__title">
             <h3> Online Banking </h3>
           </div>
@@ -23,7 +23,7 @@
         </div>
 
         <div class="feature__item">
-          <div class="feature__icon"><img src="../../assets/images/icon-budgeting.svg"/></div>
+          <div class="feature__icon"><img src="../../assets/images/icon-budgeting.svg" alt="Budgeting"/></div>
           <div class="feature__title">
             <h3> Simple Budgeting </h3>
           </div>
@@ -34,7 +34,7 @@
         </div>
 
         <div class="feature__item">
-          <div class="feature__icon"><img src="../../assets/images/icon-onboarding.svg"/></div>
+          <div class="feature__icon"><img src="../../assets/images/icon-onboarding.svg" alt="Onboarding"/></div>
           <div class="feature__title">
             <h3> Fast Onboarding </h3>
           </div>
@@ -45,7 +45,7 @@
         </div>
 
         <div class="feature__item">
-          <div class="feature__icon"><img src="../../assets/images/icon-api.svg"/></div>
+          <div class="feature__icon"><img src="../../assets/images/icon-api.svg" alt="api"/></div>
           <div class="feature__title">
             <h3> Open API </h3>
           </div>
