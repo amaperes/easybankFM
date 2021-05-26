@@ -2,7 +2,6 @@
 
 .hero {
   background-color: $veryLightGray;
-  height: calc(100vh- 20px);
 
   .container {
     @include breakpoint-up(large){
