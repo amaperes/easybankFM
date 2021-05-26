@@ -1,0 +1,84 @@
+@import '../utils/include';
+
+.article {
+  background-color: $veryLightGray;
+
+  &__grid {
+    display: grid;
+    //grid-template-columns: repeat(auto-fill, minmax(14.375rem, 1fr));
+    grid-template-columns: 1fr;
+    gap: 1.875rem;
+    
+    @include breakpoint-up(medium) {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    @include breakpoint-up(large) {
+      grid-template-columns: repeat(4, 1fr);
+    }
+  }
+
+  &__item {
+    background-color: $white;
+    border-radius: 0.3125rem;
+    overflow: hidden;
+    box-shadow: 0px 3px 12px #00000026;
+    transition: all 150ms ease-in-out;
+
+    &:hover {
+      transform: scale(1.05);
+    }
+
+  }
+
+  &__image {
+    height: 12.5rem;
+    background-size: cover;
+    //background-image: url('../../assets/images/image-restaurant.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+  }
+
+  &__text {
+    padding: 1.875rem 1.875rem 2.5rem 1.875rem;
+    color: $grayishBlue;
+
+    @include breakpoint-up(medium) {
+      padding: 1.875rem 1rem;
+
+    }
+  }
+
+  &__author {
+    font-size: 0.625rem;
+    margin-bottom: 0.75rem;
+  }
+
+  &__title {
+    font-size: 1.0625rem;  
+    line-height: 1.2;
+    color: $darkBlue;
+    margin-bottom: 0.5rem;
+
+  }
+
+  &__description {
+    font-size: 0.8125rem;
+  }
+}
+
+.article__item:nth-child(1) .article__image {
+  background-image: url('../../assets/images/image-currency.jpg');
+}
+
+.article__item:nth-child(2) .article__image {
+  background-image: url('../../assets/images/image-restaurant.jpg');
+}
+
+.article__item:nth-child(3) .article__image {
+  background-image: url('../../assets/images/image-plane.jpg');
+}
+
+.article__item:nth-child(4) .article__image {
+  background-image: url('../../assets/images/image-confetti.jpg');
+}
