@@ -1,6 +1,6 @@
 <template>
   <section class="hero">
-    <div class="container">
+    <div class="container hero__container">
       <div class="hero__image"></div>
       <div class="hero__text container--p-all">
         <h1> Next generation digital banking </h1>

@@ -55,6 +55,7 @@
       background-size: 93%;
       background-repeat: no-repeat;
       background-position: center bottom;
+      animation: hero-image-slide 1s ease-in-out forwards;
 
       @include breakpoint-up(medium){ 
         background-size: 52%;
@@ -72,10 +73,13 @@
 
   &__text {
     text-align: center;
+    animation: hero-text-slide 1s ease-in-out forwards;
+
 
     @include breakpoint-up(large){
       flex: 2;
       text-align: left;
+      animation: hero-text-slide-desktop 1s ease-in-out forwards;
     }
   }
 }
